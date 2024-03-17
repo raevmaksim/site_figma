@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/OpenSans_Condensed-Regular.ttf) format(truetype);
+}
+@font-face {
+  font-family: 'OswaldBold';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/Oswald-Bold.ttf) format(truetype);
+}
+@font-face {
+  font-family: 'OswaldMedium';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/Oswald-Medium.ttf) format(truetype);
+}
+@font-face {
+  font-family: 'OswaldRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/Oswald-Regular.ttf) format(truetype);
+}

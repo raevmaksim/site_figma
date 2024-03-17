@@ -1,0 +1,115 @@
+/* 
+font-family: 'OpenSans', sans-serif;
+font-family: 'OswaldBold', sans-serif;
+font-family: 'OswaldMedium', sans-serif;
+font-family: 'OswaldRegular', sans-serif; 
+*/
+/* Обнуление */
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;  
+}
+/* Переменные с цветами */
+:root {
+  --accent-color: #F7654A;
+  --dark-color: #404149;
+  --gray-color: #999999;
+  --white-color: #FFFFFF;
+  --background-color: #E5E5E5;
+}
+/* Стили для текцта */
+.text_h2{
+  font-family: 'OswaldMedium', sans-serif;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+.text_h3{
+  font-family: 'OswaldMedium', sans-serif;
+  font-size: 24px;
+}
+.text_h4{
+  font-family: 'OswaldMedium', sans-serif;
+  font-size: 21px;
+}
+.text_p{
+  font-family: 'OpenSans', sans-serif;
+  font-size: 16px;
+}
+.text_p-reviews{
+  font-family: 'OpenSans', sans-serif;
+  font-size: 14px;
+  line-height: 21;
+}
+/* Когтейнер */
+.container{
+  max-width: 1110px;
+  margin: 0 auto;
+}
+/* header */
+.header {
+  min-height: 740px;
+  background-image: url(../img/first-screen-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header__menu {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 112px;
+}
+.logo {
+  width: 60px;
+  height: 60px;
+}
+.burger {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  bottom: none;
+  background-color: var(--accent-color);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.burger__line {
+  display: block;
+  width: 21px;
+  height: 3px;
+  background-color: #FFFFFF;
+  margin-bottom: 4px;
+}
+.burger__line:last-child {
+  margin-bottom: 0;
+}
+
+.header__title {
+  font-family: 'OswaldRegular', sans-serif;
+  font-size: 64px;
+  text-transform: uppercase;
+  color: var(--white-color);
+  text-align: center;
+  letter-spacing: 0.045em;  
+  max-width: 730px;
+  margin: 0 auto 19px;
+}
+.header__subtitle {
+  font-family: 'OswaldRegular', sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: var(--white-color);
+  text-align: center;
+  letter-spacing: 0.013em;  
+  max-width: 730px;
+  margin: 0 auto;
+
+}
